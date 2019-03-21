@@ -13,6 +13,18 @@ export default {
             type: types.INCREMENT
         };
     },
+    incrementDelay(): any{
+        // return {
+        //     type: types.INCREMENT
+        // };
+        return function(dispatch:any,getState:any){
+            setTimeout(function(){
+                dispatch({
+                    type: types.INCREMENT
+                });
+            }, 1000)
+        }
+    },
     decrement():decrement{
         return {
             type: types.DECREMENT
