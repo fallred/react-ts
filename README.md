@@ -1,0 +1,1 @@
+npm i react react-dom @types/react @types/react-dom react-router-dom @types/react-router-dom webpack webpack-cli webpack-dev-server html-webpack-plugin typescript ts-loader source-map-loader redux react-redux @types/react-redux redux-thunk redux-logger connected-react-router  -S

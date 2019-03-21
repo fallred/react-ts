@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist",
+    "sourceMap": true,
+    // 不能隐式geiany
+    "noImplicitAny": true,
+    "module": "commonjs",
+    "target": "es5",
+    "jsx":"react"
+  },
+  "include": [
+      "./src/**/*"
+  ]
+}
